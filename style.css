@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.icon {
+  stroke: grey;
+  height: 30px;
+}
+header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+  background-color: white;
+}
+.card {
+  height: 250px;
+  width: 500px;
+  border: 5px solid rgba(128, 128, 128, 0.399);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 1rem;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+.heading {
+  text-decoration: underline;
+}
